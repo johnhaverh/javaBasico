@@ -1,6 +1,8 @@
 /*
  * Programa Java que guarda en una matriz de 10x10 de números enteros que se leen por teclado. 
  * A continuación, se recorre la matriz y calcula cuántos números son positivos, cuantos negativos y cuantos ceros.
+ * John Herrera
+ * Misión TIC 2022
  */
 
 import java.util.Scanner;

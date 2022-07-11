@@ -1,5 +1,7 @@
 /*Se requiere un algoritmo que para 1 cliente, calcule el valor a pagar de N tipos de productos 
   comprados de acuerdo a la cantidad a llevar de cada tipo.
+  John Herrera
+  Misión TIC 2022
 */
 
 import java.util.Scanner;

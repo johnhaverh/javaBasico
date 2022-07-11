@@ -1,6 +1,8 @@
 /*
-Diseñar un algoritmo que calcule el promedio de notas del primer
-parcial de un curso de N estudiantes.
+* Diseñar un algoritmo que calcule el promedio de notas del primer
+* parcial de un curso de N estudiantes.
+* John Herrera
+* Misión TIC 2022
 */
 
 import java.util.Scanner;
