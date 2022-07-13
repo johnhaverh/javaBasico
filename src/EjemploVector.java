@@ -12,11 +12,11 @@ public class EjemploVector {
         int cantFilas=10, filas, vector[] = new int[10];
         int cantPos=0, cantNeg=0, cantCero=0;
 
-        Scanner leer = new Scanner(System.in);
+        Scanner entrada = new Scanner(System.in);
 
         for (filas = 0; filas < cantFilas; filas++) {
             System.out.print("Elemento "+(filas+1)+": ");
-            vector[filas] = leer.nextInt();
+            vector[filas] = entrada.nextInt();
         }
 
         for (filas = 0; filas < cantFilas; filas++) {
@@ -35,6 +35,6 @@ public class EjemploVector {
         System.out.println("Cantidad positivos: " + cantPos);
         System.out.println("Cantidad negativos: " + cantNeg);
         System.out.println("Cantidad ceros: " + cantCero);
-        leer.close();
+        entrada.close();
     }
 }   

@@ -52,6 +52,9 @@ public class SumarMatrices {
         imprimirMatriz(matriz2,cantFilas, cantColumnas);
         System.out.println("Resultado Matriz1 + Matriz2");
         imprimirMatriz(matriz3,cantFilas, cantColumnas);
+
+        System.out.println("Resultado Matriz1 + Matriz2 - metodo impresión 2");
+        imprimirMatriz2(matriz3);
     }
 
     private static void imprimirMatriz(int[][] matriz, int cantFilas, int cantColumnas) {
@@ -62,6 +65,15 @@ public class SumarMatrices {
             }
             System.out.println("");
         } 
+    }
+
+    private static void imprimirMatriz2(int[][] mat) {
+        for (int f = 0; f < mat.length; f++) { // python: len(mat)
+            for (int c = 0; c < mat[f].length; c++) { // python: len(mat[f])
+                System.out.print(mat[f][c] + "\t");
+            }
+            System.out.println("");
+        }
     }
     
 }

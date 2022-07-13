@@ -9,12 +9,12 @@ import java.util.Scanner;
 public class Vector {
     public static void main(String[] args) {
         int cant, filas, vector[] = new int[100];
-        Scanner leer = new Scanner(System.in);
+        Scanner entrada = new Scanner(System.in);
         System.out.print("Cantidad de elementos: ");
-        cant = leer.nextInt();
+        cant = entrada.nextInt();
         for (filas = 0; filas < cant; filas++) {
             System.out.print("Elemento "+(filas+1)+": ");
-            vector[filas] = leer.nextInt();
+            vector[filas] = entrada.nextInt();
         }
         System.out.println("Elementos del vector");
         
@@ -29,6 +29,6 @@ public class Vector {
             
         }
         System.out.println("");
-        leer.close();
+        entrada.close();
     }
 }
