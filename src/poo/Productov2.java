@@ -93,19 +93,25 @@ public class Productov2 {
         return Math.round(cantUniCompra * precioCompra * (1.0f - porcentajeDescuento));
     }
 
+    public long calcularTotalPagar(int cantUniCompra, float porcentajeDescuento ) {
+        return Math.round(cantUniCompra * precioCompra * (1.0f - porcentajeDescuento));
+    }
+
+    //otros metodos
+
     public void imprimeCodigo() {
-        System.out.println("Codigo producto: " + codigo);
+        System.out.println("Codigo del producto: " + codigo);
     }
 
     public void imprimeprecioCompra() {
-        System.out.println("precioCompra producto: " + precioCompra);
+        System.out.println("Precio Compra del producto: " + precioCompra);
     }
 
     public void imprimeCantidad() {
-        System.out.println("Cantidad producto: " + cantidad);
+        System.out.println("Cantidad unidades del producto: " + cantidad);
     }
 
     public void imprimeCantidadMinima() {
-        System.out.println("Cantidad minima producto: " + cantidadMinimaInventario);
+        System.out.println("Cantidad minima del producto: " + cantidadMinimaInventario);
     }
 }

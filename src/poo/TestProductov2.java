@@ -12,8 +12,11 @@ import java.util.Scanner;
 public class TestProductov2 {
     
     public static void main(String[] args) {
-
+        
         Scanner entrada = new Scanner(System.in);
+
+        System.out.print("\033[H\033[2J");  
+        System.out.flush();
 
         System.out.print("Numero de Productos: ");
         int numeroProductos = entrada.nextInt();
@@ -66,6 +69,7 @@ public class TestProductov2 {
             System.out.println("El producto con mayor cantidad en bodega es "+productoMaxCantBodega.getCodigo());
  
         // validar precio producto
+        System.out.println("\n__Total a pagar a proveedor___");
 
         System.out.print("Ingrese código del producto: ");
         int codProd = entrada.nextInt();
@@ -81,6 +85,7 @@ public class TestProductov2 {
         }
 
         // cambiar cantidad mimina producto
+        System.out.println("\n___Cambiar cantidad mímina en bodega___");
         System.out.print("Ingrese código del producto: ");
         codProd = entrada.nextInt();
 
@@ -98,7 +103,32 @@ public class TestProductov2 {
             }
         }
 
-        entrada.close();
+        // vender producto
+        System.out.println("\n__Vender un producto___");
+        System.out.print("Ingrese código del producto a vender: ");
+        codProd = entrada.nextInt();
 
+        if (codProd < 0)
+            codProd = 0;
+
+        System.out.print("Ingrese cantidad de productos a vender: ");
+        cantProd = entrada.nextInt();
+
+        for (int i=0; i< cantProd;i++){
+            if (vecProductos[i].getCodigo() == codProd){
+                System.out.println("Cantidad de productos disponibles: "+ vecProductos[i].getCantidad());
+                if (vecProductos[i].getCantidad() >= cantProd){
+                    vecProductos[i].setCantidad(vecProductos[i].getCantidad() - cantProd );
+                    System.out.println("Valor factura con descuento: "+ vecProductos[i].calcularTotalPagar(cantProd));
+                    System.out.println("Valor factura sin descuento: "+ vecProductos[i].calcularTotalPagar(cantProd,0));
+                    System.out.println("Cantidad de productos restantes: "+ vecProductos[i].getCantidad());
+                } else {
+                    System.out.println("No hay unidades suficientes para la venta ");   
+                }
+                break;
+            }
+        }
+
+        entrada.close();
     }
 }
