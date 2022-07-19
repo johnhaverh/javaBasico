@@ -1,8 +1,8 @@
 /*
- * Introducción Java - tipos de datos
- * John Herrera
- * Misión TIC 2022
- */
+ Introducción Java - tipos de datos
+ John Herrera
+ Misión TIC 2022
+*/
 
 import java.util.Scanner;
 

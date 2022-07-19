@@ -1,9 +1,9 @@
 /*
- * Introducción Java - clases
- * John Herrera
- * Misión TIC 2022
- * Programa básico para probar la clase Productov2
- */
+ Introducción Java - clases
+ John Herrera
+ Misión TIC 2022
+ Programa básico para probar la clase Productov2
+*/
 
 package poo;
 
@@ -24,7 +24,7 @@ public class TestProductov2 {
         Productov2[] vecProductos = new Productov2[numeroProductos];
 
         for (int i=0;i<numeroProductos;i++){
-            System.out.println("Producto #: "+i+1);
+            System.out.println("Producto #: "+(i+1));
             System.out.print("Codigo del Producto: ");
             int codigoProducto = entrada.nextInt();
             

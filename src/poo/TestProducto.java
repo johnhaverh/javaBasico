@@ -1,9 +1,9 @@
 /*
- * Introducción Java - clases
- * John Herrera
- * Misión TIC 2022
- * Programa básico para probar la clase producto
- */
+ Introducción Java - clases
+ John Herrera
+ Misión TIC 2022
+ Programa básico para probar la clase producto
+*/
 
 package poo;
 

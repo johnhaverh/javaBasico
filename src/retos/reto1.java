@@ -1,8 +1,7 @@
-package retos;
 /*
-* John Herrera
-* Misión TIC 2022
-* Reto 1 - Java
+    John Herrera
+    Misión TIC 2022
+    Reto 1 - Java
 
 Se requiere leer un vector de tamaño n de entrada en el que cada elemento indique el porcentaje de
 la clasificación IRCA. 
@@ -12,6 +11,7 @@ El algoritmo debe ser capaz de responder a las siguientes preguntas:
 ¿Cuál es el nivel de riesgo de la calidad del agua más alto encontrado?
 ¿Cuál es el nivel de riesgo de la calidad del agua más bajo encontrado?
 */
+package retos;
 
 import java.util.Scanner;
 

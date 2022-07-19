@@ -1,8 +1,8 @@
 /*
- * Introducción Java - clases 
- * John Herrera
- * Clase para calcular el volumen de un cubo
- */
+ Introducción Java - clases 
+ John Herrera
+ Clase para calcular el volumen de un cubo
+*/
 
 package varios;
 

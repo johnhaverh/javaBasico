@@ -1,9 +1,9 @@
 /*
- * Introducción Java - clases
- * John Herrera
- * Misión TIC 2022
- * CRear una clase básica para información de estudiantes
- */
+ Introducción Java - clases
+ John Herrera
+ Misión TIC 2022
+ Crear una clase básica para información de estudiantes
+*/
 package poo;
 
 public class Estudiante {

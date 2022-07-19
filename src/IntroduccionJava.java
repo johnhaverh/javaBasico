@@ -1,8 +1,8 @@
 /*
- * Introducción Java
- * John Herrera
- * Misión TIC 2022
- */
+ Introducción Java
+ John Herrera
+ Misión TIC 2022
+*/
 import java.util.Scanner;
 
 public class IntroduccionJava {

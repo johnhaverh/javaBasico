@@ -1,8 +1,8 @@
 /*
- * Introducción Java - clases 
- * John Herrera
- * Misión TIC 2022
- * Crear una clase y el programa para la gestión de cuentas corrientes
+ Introducción Java - clases 
+ John Herrera
+ Misión TIC 2022
+ Crear una clase y el programa para la gestión de cuentas corrientes
  */
 
 package poo;

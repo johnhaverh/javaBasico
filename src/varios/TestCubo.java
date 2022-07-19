@@ -1,10 +1,10 @@
 package varios;
 
 /*
- * Introducción Java - clases 
- * John Herrera
- * Clase para probar la clase cubo (calculo volumen)
- */
+ Introducción Java - clases 
+ John Herrera
+ Clase para probar la clase cubo (calculo volumen)
+*/
 
 import java.util.Scanner;
 

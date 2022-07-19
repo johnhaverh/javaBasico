@@ -1,8 +1,8 @@
 /*
- * Programa Java que guarda en un array 10 números enteros que se leen por teclado. 
- * A continuación, se recorre el array y calcula cuántos números  son positivos, cuantos negativos y cuantos ceros. 
- * John Herrera
- * Misión TIC 2022
+ Programa Java que guarda en un array 10 números enteros que se leen por teclado. 
+ A continuación, se recorre el array y calcula cuántos números  son positivos, cuantos negativos y cuantos ceros. 
+ John Herrera
+ Misión TIC 2022
 */
 
 import java.util.Scanner;

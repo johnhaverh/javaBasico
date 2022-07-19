@@ -1,8 +1,8 @@
 /*
- * Ejemplo básico de matriz 
- * John Herrera
- * Misión TIC 2022
- */
+ Ejemplo básico de matriz 
+ John Herrera
+ Misión TIC 2022
+*/
 
 import java.util.Scanner;
 

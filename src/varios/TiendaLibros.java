@@ -1,8 +1,8 @@
 /*
- * Introducción Java 
- * John Herrera
- * Programa para capturar información de una tienda de libros
- */
+ Introducción Java 
+ John Herrera
+ Programa para capturar información de una tienda de libros
+*/
 
 package varios;
 

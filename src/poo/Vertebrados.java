@@ -1,3 +1,10 @@
+/*
+ Introducción Java - clases
+ John Herrera
+ Misión TIC 2022
+ Crear una clase básica para información de vertebrados
+*/
+
 package poo;
 
 public class Vertebrados {

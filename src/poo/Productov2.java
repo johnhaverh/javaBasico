@@ -1,9 +1,9 @@
 /*
- * Introducción Java - clases
- * John Herrera
- * Misión TIC 2022
- * Clase básica para gestionar la información producto, se debe validar si se requiere o no solicitar productos al proveedor
- */
+ Introducción Java - clases
+ John Herrera
+ Misión TIC 2022
+ Clase básica para gestionar la información producto, se debe validar si se requiere o no solicitar productos al proveedor
+*/
 
 package poo;
 

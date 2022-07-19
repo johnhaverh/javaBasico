@@ -1,8 +1,8 @@
 /*
- * Programa simple, uso de condicionales Switch - impresión de menú
- * John Herrera
- * Misión TIC 2022
- */
+ Programa simple, uso de condicionales Switch - impresión de menú
+ John Herrera
+ Misión TIC 2022
+*/
 
 import java.util.Scanner;
 
