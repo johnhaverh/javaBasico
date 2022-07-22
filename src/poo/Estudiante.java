@@ -11,8 +11,11 @@ public class Estudiante {
     // atributos
     private String Nombre;
     public float Nota1;
-    protected float Nota2;
-    float Nota3;
+    //protected float Nota2;
+    //float Nota3;
+
+    public float Nota2;
+    public float Nota3;
 
     // constructor
 

@@ -5,9 +5,11 @@
  Programa básico para probar la clase Productov2
 */
 
-package poo;
+package test;
 
 import java.util.Scanner;
+
+import poo.Productov2;
 
 public class TestProductov2 {
     

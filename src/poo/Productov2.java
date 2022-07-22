@@ -16,7 +16,7 @@ public class Productov2 {
     private float porcentajeDescuento;
 
     // Contructor
-    Productov2(int codigoProducto, int precioProducto, int cantidadBodega, int cantidadMinima, int cantidadMaxima) {
+    public Productov2(int codigoProducto, int precioProducto, int cantidadBodega, int cantidadMinima, int cantidadMaxima) {
         codigo = codigoProducto;
         precioCompra = precioProducto;
         cantidad = cantidadBodega;

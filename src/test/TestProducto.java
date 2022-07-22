@@ -5,11 +5,13 @@
  Programa básico para probar la clase producto
 */
 
-package poo;
+package test;
 
 import java.util.Scanner;
 
 import javax.swing.JOptionPane;
+
+import poo.Producto;
 
 public class TestProducto {
     
