@@ -9,9 +9,9 @@ package test;
 
 import java.util.Scanner;
 
-import poo.Productov2;
+import poo.Producto2;
 
-public class TestProductov2 {
+public class TestProducto2 {
     
     public static void main(String[] args) {
         
@@ -23,7 +23,7 @@ public class TestProductov2 {
         System.out.print("Numero de Productos: ");
         int numeroProductos = entrada.nextInt();
 
-        Productov2[] vecProductos = new Productov2[numeroProductos];
+        Producto2[] vecProductos = new Producto2[numeroProductos];
 
         for (int i=0;i<numeroProductos;i++){
             System.out.println("Producto #: "+(i+1));
@@ -42,16 +42,16 @@ public class TestProductov2 {
             System.out.print("cantidad maxima requerida: ");
             int cantidadMaxima = entrada.nextInt();
 
-            Productov2 prod = new Productov2(codigoProducto, precioProducto,cantidadBodega,cantidadMinima,cantidadMaxima);
+            Producto2 prod = new Producto2(codigoProducto, precioProducto,cantidadBodega,cantidadMinima,cantidadMaxima);
 
             vecProductos[i]=prod;
 
         }
 
         int maxCantidadBodega=-1;
-        Productov2 productoMaxCantBodega=null;
+        Producto2 productoMaxCantBodega=null;
 
-        for (Productov2 productov2 : vecProductos) {
+        for (Producto2 productov2 : vecProductos) {
             if (productov2.solicitarProducto()){
                 System.out.println("---> Alerta");
                 System.out.println("\t El producto " + productov2.getCodigo()+
