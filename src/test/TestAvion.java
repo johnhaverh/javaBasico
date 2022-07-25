@@ -1,8 +1,8 @@
 package test;
 
-import poo.herencia.AvionCarga;
-import poo.herencia.AvionComercial;
-import poo.herencia.AvionGuerra;
+import poo.herencia.Aviones.AvionCarga;
+import poo.herencia.Aviones.AvionComercial;
+import poo.herencia.Aviones.AvionGuerra;
 
 public class TestAvion {
     public static void main(String[] args) {
@@ -37,6 +37,9 @@ public class TestAvion {
         System.out.println("Peso: " + aCarga2.getPeso());
 
         //otro avión
+
+        AvionCarga aCarga3 = new AvionCarga(alas, cabinas, peso);
+        System.out.println("Peso: " + aCarga3.getPeso());
     }
     
 }

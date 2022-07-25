@@ -1,4 +1,4 @@
-package poo.herencia;
+package poo.herencia.Aviones;
 
 public class AvionGuerra extends Avion{
     private String tipoMisil;

@@ -1,4 +1,4 @@
-package poo.herencia;
+package poo.herencia.Aviones;
 public class AvionComercial extends Avion {
     private int numeroPasajeros;
 

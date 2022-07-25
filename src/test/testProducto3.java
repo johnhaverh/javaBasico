@@ -1,18 +1,10 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package test;
 
 import java.util.Scanner;
 
 import poo.Producto3;
 
-/**
- *
- * @author DOCENTE
- */
-public class testProducto3 {
+public class TestProducto3 {
     /*
     1	Consulte el número de productos a manejar.
     2	Cree un vector de productos en el cual se guardarán las instancias de 

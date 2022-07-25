@@ -1,4 +1,4 @@
-package poo.herencia;
+package poo.herencia.Aviones;
 
 public class Avion {
     private int alas;
