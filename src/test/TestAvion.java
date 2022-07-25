@@ -1,32 +1,42 @@
 package test;
 
-import poo.AvionCarga;
-import poo.AvionComercial;
-import poo.AvionGuerra;
+import poo.herencia.AvionCarga;
+import poo.herencia.AvionComercial;
+import poo.herencia.AvionGuerra;
 
 public class TestAvion {
     public static void main(String[] args) {
         
         AvionGuerra aGuerra = new AvionGuerra();
         aGuerra.setAlas(4);
-        aGuerra.Despegar();
-        aGuerra.Disparar();
-        aGuerra.Aterrizar();
+        aGuerra.despegar();
+        aGuerra.disparar();
+        aGuerra.aterrizar();
         System.out.println("Alas avión de guerra" + aGuerra.getAlas());
 
         AvionCarga aCarga = new AvionCarga();
         aCarga.setAlas(2);
-        aCarga.Despegar();
-        aCarga.ValidarPeso();
-        aCarga.Aterrizar();
+        aCarga.despegar();
+        aCarga.validarPeso();
+        aCarga.aterrizar();
         System.out.println("Alas avión de carga" + aCarga.getAlas());
 
         AvionComercial aComercial = new AvionComercial();
         aComercial.setAlas(2);
-        aComercial.Despegar();
-        aComercial.DarRefrigerios();
-        aComercial.Aterrizar();
+        aComercial.despegar();
+        aComercial.darRefrigerios();
+        aComercial.aterrizar();
         System.out.println("Alas avión de carga" + aComercial.getAlas());
+
+        //otro avión 
+        int peso = 5000;
+        int alas = 2;
+        int cabinas = 1;
+
+        AvionCarga aCarga2 = new AvionCarga(alas, cabinas);
+        System.out.println("Peso: " + aCarga2.getPeso());
+
+        //otro avión
     }
     
 }

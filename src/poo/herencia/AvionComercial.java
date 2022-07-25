@@ -1,8 +1,8 @@
-package poo;
+package poo.herencia;
 public class AvionComercial extends Avion {
     private int numeroPasajeros;
 
-    public void DarRefrigerios(){
+    public void darRefrigerios(){
         System.out.println("Dar refrijerios - Avión comercial");
     }
 }
